@@ -1,0 +1,339 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 92%;
+    overflow: hidden;
+}
+
+/* ----------with position----------------- */
+
+@media screen and (max-width:967px) and (min-width: 320px) {
+    body{
+        overflow: hidden !important;
+        position: relative !important;
+
+    }
+    .box {
+        position: absolute;
+        top: 0;
+    }
+    .con-img{
+        position: absolute;
+        top: 587px;
+        min-width: 100% !important;
+    }
+    .footer{
+        position: absolute;
+        top: 1187px;
+        min-width: 100% !important;
+
+
+
+    }
+
+    .con-img img {
+        max-width: 100% !important;
+    }
+    .inf h1{
+        font-size: 50px !important;
+    }
+    .inf h4{
+        text-align: center !important;
+    }
+    .btn{
+        
+        margin-left: 90px !important;        
+    }
+    .btn1{
+        
+        margin-left: 90px !important;        
+    }
+    .lll{
+        margin-left: 90px !important;
+        max-width: 200px !important;
+    }
+    
+    .btn3{
+        
+        margin-left: 90px !important;        
+    }
+    .agrmt{
+        margin-left: 90px !important;        
+
+    }
+    .all{
+        text-align: center !important;
+    }
+    .btn4{
+        
+        margin-left: 70px !important;        
+    }
+
+
+}
+
+
+/* ---------with out position setting---------- */
+
+
+/* 
+@media screen and (max-width: 967px) {
+   
+    body{
+
+        max-width:100% !important ;
+        overflow: hidden !important;
+    }
+    .container{
+        margin: 0%;
+        min-width: 100% !important;
+        overflow: hidden !important;
+
+    }
+    .con-img{
+
+         display: none; 
+    }
+    .inf h1{
+        font-size: 50px !important;
+    }
+    
+    .down-img{
+    
+        display: block !important;
+        min-width: 100% !important;
+
+
+       }
+       .down-img img{
+        min-width: 100% !important;
+
+       }
+       .box {
+           min-width: 100% !important;
+
+        }
+
+
+   
+}  */
+
+
+
+    /* --------------------------------- */
+
+
+
+.container{
+    margin: 0%;
+    min-width: 100%;
+}
+/* image of left side */
+.con-img img{
+    width: 100%;
+    height: 600px;
+    margin-left: 0%;
+    padding: 0%;
+}
+/* twitter logo on right top */
+.tw i{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+/* box for backgraound colour on right side */
+.box{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    width: 100%; 
+}
+/* for 1st heading on right side */
+.inf h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 60px;
+}
+.inf h4{
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+/* first button on right side*/
+.btn a{
+    background-color: white;
+    color: black;
+    border-radius: 17px;
+    width: 100%;
+    /* height: 30px; */
+    text-align: center;
+    text-decoration: none;
+}
+.btn{
+
+    width: 250px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+/* 2nd button on right side*/
+.btn1 a{
+    background-color: white;
+    color: black;
+    border-radius: 17px;
+    width: 100%;
+    /* height: 40px; */
+    text-align: center;
+    text-decoration: none;
+    
+}
+.btn1{
+
+    width: 250px;
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 7px;
+    margin-left: 20px;
+}
+
+/* for writting a message (or) between a line  */
+.lll{
+    width: 100%;
+    margin-top: 10px;
+}
+.line{
+    margin-left: 38px;
+    float: left;
+}
+.line hr{
+    color: white;
+width: 72px;
+margin-top: 11px;
+}
+
+
+.line1{
+    margin-left: 66px;
+    float: left;
+}
+.line1 hr{
+    color: white;
+width: 80px;
+margin-top: -29px;
+margin-left: 68px;
+}
+
+
+.para p{
+   width: auto;   
+    color: white;
+    margin-left: 115px;
+}
+/* button 3 on write side */
+.btn3{
+    width: 250px;
+    background-color: blue;
+    border-radius: 17px;
+    height: 35px;
+    padding-top: 7px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+.btn3:hover{
+    background-color: rgb(97, 125, 218);
+}
+
+.btn3 a:hover{
+    background-color: rgb(97, 125, 218);
+}
+.btn3 a{
+    margin-top: 0%;
+    color: white;
+    text-decoration: none;
+
+}
+/* aggrement message */
+.agrmt{
+    width: 257px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.agrmt p{
+    color: white;
+    font-size: 9px;
+
+}
+.agrmt a{
+    text-decoration: none;
+}
+.agrmt a:hover{
+    text-decoration: underline;
+}
+/* already have an account */
+.all{
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 95px;
+}
+.all h4{
+    color: white;
+    
+}
+/* buton 4 on right side */
+.btn4{
+    width: 250px;
+    background-color:none;
+    border-radius: 17px;
+    height: 35px;
+    border: 1px solid blue;
+    padding-top: 7px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.btn4 a{
+
+    color: blue;
+    text-decoration: none;
+
+}
+.btn4:hover{
+    background-color: lightblue;
+}
+/* ////////////footer/////////////// */
+.footer{
+    max-width: 100%;
+    background-color: black;
+    height: 40px;
+}
+.footer h3{
+    text-align: center;
+    color: white;
+}
+/* --////////////////////////-- */
+.down-img{
+ display:none;
+}
+.down-img img{
+    width: 100%;
+    height: 600px;
+    margin-left: 0%;
+    padding: 0%;
+}
